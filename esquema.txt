@@ -1,0 +1,90 @@
+Un portafolio trainee no necesita ser enorme, pero sí estratégico. Debe demostrar tres cosas:
+- que entiendes HTML, CSS y algo de JS,
+- que puedes estructurar una página con buenas prácticas,
+- que tienes criterio visual y atención al detalle.
+
+
+1. Página de Inicio (Home)
+Debe transmitir quién eres y qué ofreces en segundos.
+Incluye:
+- Tu nombre y rol: “Front-End Developer Trainee”
+- Una frase breve que te represente: “Creo experiencias digitales claras, accesibles y modernas”
+- Una foto profesional o avatar
+- Un botón a tus proyectos
+
+2. Sobre mí (About)
+Aquí muestras tu identidad profesional.
+Incluye:
+- Tu historia breve: cómo llegaste al desarrollo
+- Tus habilidades principales (HTML5, CSS3, Flexbox, Grid, Bootstrap, Git, etc.)
+- Tu enfoque: accesibilidad, diseño limpio, aprendizaje continuo
+- Un toque personal (hospitalidad, diseño, educación… eso te diferencia)
+
+3. Proyectos (el corazón del portafolio)
+Para un trainee, 3 a 5 proyectos bien hechos son suficientes.
+Cada proyecto debe incluir:
+- Nombre del proyecto
+- Descripción breve (qué problema resuelve)
+- Tecnologías usadas
+- Capturas o demo en vivo
+- Código en GitHub
+Proyectos recomendados para tu nivel:
+- Página semántica completa (HTML5)
+- Landing page responsive
+- Menú de restaurante (ideal para tu experiencia en hotelería)
+- Formulario funcional (login, registro, contacto)
+- Tabla o dashboard simple
+- Mini‑sitio multipágina con rutas relativas
+
+4. Habilidades Técnicas
+Organízalas por categorías:
+Lenguajes
+- HTML5
+- CSS3
+- JavaScript básico
+Herramientas
+- Git y GitHub
+- VS Code
+- Bootstrap
+- Figma o Canva (si lo usas)
+
+Competencias blandas (muy valoradas)
+- Atención al detalle
+- Comunicación
+- Trabajo en equipo
+- Experiencia en servicio al cliente (tu plus)
+
+5. Experiencia o proyectos personales
+Aunque no tengas experiencia laboral en tech, puedes incluir:
+- Proyectos del curso
+- Ejercicios destacados
+- Trabajo freelance o voluntario
+- Sitios creados para amigos, emprendimientos o prácticas
+6. Educación y Certificaciones
+Incluye:
+- Cursos de desarrollo web
+- Diplomado en pedagogía (te da un diferencial enorme)
+- Certificaciones relevantes (HTML, CSS, Git, etc.)
+
+7. Contacto
+Debe ser visible y profesional:
+- Email
+- LinkedIn
+- GitHub
+- (Opcional) WhatsApp profesional
+
+8. Extras que suman muchísimo
+No son obligatorios, pero te hacen destacar:
+Blog o sección de notas
+Explica lo que aprendes: semántica, rutas relativas, tablas, formularios…
+Esto demuestra pensamiento crítico.
+Diseño consistente
+Tipografías, colores, espaciado, jerarquía visual.
+Tu experiencia en hospitalidad te da sensibilidad estética: úsala.
+Accesibilidad básica
+- Alt en imágenes
+- Encabezados bien jerarquizados
+- Contraste adecuado
+Responsividad
+Tu portafolio debe verse perfecto en móvil.
+
