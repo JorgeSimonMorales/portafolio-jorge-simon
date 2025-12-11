@@ -1,4 +1,4 @@
-// ✅ MENÚ RESPONSIVE
+// MENÚ RESPONSIVE
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
 
@@ -8,7 +8,7 @@ if (menuBtn && navLinks) {
   });
 }
 
-// ✅ SCROLL SUAVE
+// SCROLL SUAVE
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener("click", function (e) {
     const target = document.querySelector(this.getAttribute("href"));
@@ -20,7 +20,7 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
   });
 });
 
-// ✅ TEXTO ANIMADO DE ROLES
+// TEXTO ANIMADO DE ROLES
 const roles = [
   "Desarrollador Front-End Trainee",
   "Docente",
