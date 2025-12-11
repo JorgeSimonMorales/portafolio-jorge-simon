@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio Jorge Simon</title>
+
+    <!-- Estilos -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Tipografías -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 </head>
 
 <body>
+
+    <!-- HEADER -->
     <header>
         <nav class="navbar">
-            <h2 class="logo">Jorge Simon Morales</h2>
+            <h1 class="logo">Jorge Simon Morales</h1>
+
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#sobre-mi">Sobre mí</a></li>
@@ -18,15 +26,25 @@
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
+
             <button class="menu-btn">☰</button>
         </nav>
     </header>
+
+    <!-- HERO -->
     <section id="inicio" class="hero">
-        <img src="assets/img/yo.jpg" alt="foto JorgeSimon" class="foto-perfil">
-        <h1>Hola, soy <span>Jorge Simon Morales</span></h1>
-        <p>Desarrollador Front-End Trainee</p>
+        <img src="assets/img/yo.jpg" alt="Foto de Jorge Simón Morales" class="foto-perfil">
+
+        <h2>Hola, soy <span>Jorge Simon Morales</span></h2>
+
+        <h2 class="rol-animado">
+            <span id="texto-rol">Desarrollador Front-End Trainee</span>
+        </h2>
+
         <a href="#proyectos" class="btn">Ver mis proyectos</a>
     </section>
+
+    <!-- SOBRE MÍ -->
     <section id="sobre-mi" class="about">
         <h2>Sobre mí</h2>
         <p>
@@ -35,6 +53,8 @@
             accesibles y centradas en las personas.
         </p>
     </section>
+
+    <!-- HABILIDADES -->
     <section id="habilidades" class="skills">
         <h2>Habilidades</h2>
         <ul>
@@ -45,38 +65,57 @@
             <li>Git & GitHub</li>
         </ul>
     </section>
+
+    <!-- PROYECTOS -->
     <section id="proyectos" class="projects">
         <h2>Proyectos</h2>
 
-        <div class="project-card">
-            <img src="assets/img/landing.png" alt="Proyecto 1">
-            <h3>Landing Page</h3>
-            <p>Una landing page responsive creada con HTML, CSS y Flexbox.</p>
-            <a href="#" target="_blank">Ver proyecto</a>
-        </div>
+        <div class="projects-container">
 
-        <div class="project-card">
-            <img src="assets/img/planmensual.png" alt="Proyecto 2">
-            <h3>Formulario Login</h3>
-            <p>Formulario de plan mensual didáctico y amigable para organizar tus tareas.</p>
-            <a href="#" target="_blank">Ver proyecto</a>
-        </div>
+            <div class="project-card">
+                <img src="assets/img/landing.png" alt="Landing Page">
+                <h3>Landing Page</h3>
+                <p>Una landing page responsive creada con HTML, CSS y Flexbox.</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+            </div>
 
+            <div class="project-card">
+                <img src="assets/img/planmensual.png" alt="Formulario Login">
+                <h3>Formulario Login</h3>
+                <p>Formulario de plan mensual didáctico y amigable para organizar tus tareas.</p>
+                <a href="#" target="_blank" rel="noopener noreferrer">Ver proyecto</a>
+            </div>
+
+        </div>
     </section>
 
+    <!-- CONTACTO -->
     <section id="contacto" class="contact">
         <h2>Contacto</h2>
+
         <form>
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu correo" required>
-            <textarea placeholder="Tu mensaje"></textarea>
+            <label>
+                <input type="text" placeholder="Tu nombre" required>
+            </label>
+
+            <label>
+                <input type="email" placeholder="Tu correo" required>
+            </label>
+
+            <label>
+                <textarea placeholder="Tu mensaje"></textarea>
+            </label>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
+
+    <!-- FOOTER -->
     <footer>
         <p>© 2025 Jorge Roberto | Portafolio Front-End</p>
     </footer>
 
+    <!-- Scripts -->
     <script src="assets/js/script.js"></script>
 
 </body>
