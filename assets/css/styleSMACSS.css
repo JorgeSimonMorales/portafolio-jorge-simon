@@ -1,0 +1,100 @@
+/* ===== BASE ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== LAYOUT ===== */
+.l-header {
+  background: #111;
+  padding: 15px 0;
+}
+
+.l-navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.l-hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  text-align: center;
+}
+
+.l-section {
+  padding: 60px 10%;
+}
+
+.l-footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ===== MODULES ===== */
+.logo {
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.skills-list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ===== STATES ===== */
+.is-hidden {
+  display: none;
+}
+
+.is-active {
+  color: #007bff;
+}

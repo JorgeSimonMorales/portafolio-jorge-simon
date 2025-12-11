@@ -1,0 +1,100 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* ===== NAVBAR (Bloque: header) ===== */
+.header {
+  background: #111;
+  padding: 15px 0;
+}
+
+.header__navbar {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  color: #fff;
+}
+
+.header__nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.header__nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__menu-btn {
+  display: none;
+}
+
+/* ===== HERO (Bloque: hero) ===== */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  text-align: center;
+}
+
+.hero__highlight {
+  color: #007bff;
+}
+
+.hero__btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* ===== SECCIONES ===== */
+.section {
+  padding: 60px 10%;
+}
+
+.skills__list {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* ===== PROJECT CARD ===== */
+.project-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.project-card__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
