@@ -12,19 +12,6 @@ body {
 }
 
 /* LOGO PRINCIPAL */
-
-.logo {
-  height: 60px;
-  width: auto;
-  display: block;
-  margin: 0 auto;
-  transition: transform 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.05);
-}
-
 .logo {
   font-family: "Playfair Display", serif;
   font-size: 2.2rem;
@@ -142,7 +129,7 @@ section {
   padding: 60px 10%;
 }
 
-.skills ul {
+/* .skills ul {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
@@ -153,7 +140,7 @@ section {
 .skills li {
   display: list-item;
   margin-bottom: .5rem;
-}
+} */
 
 .project-card {
   background: white;
