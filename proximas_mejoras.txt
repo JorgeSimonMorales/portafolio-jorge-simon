@@ -1,0 +1,135 @@
+MEJORAS
+1. Paleta de colores más coherente
+Ahora mismo hay tonos que no conversan del todo entre sí.
+Te recomiendo elegir una paleta de 3 colores:
+- Primario: azul petróleo / grafito
+- Secundario: blanco / gris claro
+- Acento: dorado suave / verde esmeralda
+Esto le dará un look más premium.
+
+Tipografías más modernas
+La tipografía actual es correcta, pero no destaca.
+Prueba combinaciones como:
+- Playfair Display + Inter
+- Lora + Poppins
+- Cormorant + Roboto
+Esto eleva instantáneamente la estética.
+3. Más espacio en blanco
+El contenido está un poco “apretado”.
+Dale más aire entre secciones y dentro de cada bloque.
+El espacio en blanco es elegancia.
+
+
+
+
+1. Diseño visual (UI): elegancia y coherencia
+✅ Mejorar la paleta de colores
+- Usa 2 colores principales + 1 acento.
+- Evita tonos muy saturados o contrastes bruscos.
+- Inspírate en paletas modernas:
+- Azul petróleo + blanco + dorado suave
+- Gris grafito + verde esmeralda
+- Beige + negro + azul profundo
+
+Tipografías más profesionales
+- Combina una serif elegante (para títulos) + una sans-serif limpia (para texto).
+- Ejemplos:
+- Playfair Display + Inter
+- Lora + Poppins
+- Cormorant + Roboto
+
+Estructura (UX): claridad y recorrido del usuario
+✅ Hero más impactante
+Tu sección inicial debería:
+- Tener una frase fuerte tipo:
+“Front-End Developer con experiencia en hospitalidad y diseño centrado en las personas.”
+- Incluir una foto profesional o un avatar minimalista.
+- Botones claros:
+- Ver proyectos
+- Descargar CV
+
+Proyectos con storytelling
+No solo mostrar imágenes:
+Cuenta brevemente el “por qué” y el “cómo”.
+Ejemplo:
+- Problema: El sitio anterior era poco accesible.
+- Solución: Rediseño con HTML semántico, Grid y Mobile First.
+- Resultado: +40% usabilidad en pruebas.
+Esto te diferencia de quienes solo ponen capturas
+
+
+Navegación fija (sticky navbar)
+Hace que el sitio se sienta más profesional y moderno.
+
+
+ Imágenes y presentación
+✅ Mockups profesionales
+En vez de capturas directas, usa mockups limpios (laptop, móvil, tablet).
+Esto eleva instantáneamente la percepción de calidad.
+✅ Consistencia en tamaños
+Asegúrate de que todas las imágenes tengan:
+- misma proporción
+- misma estética
+- misma alineación
+
+
+Código y arquitectura
+✅ Usar un diseño modular
+Ya manejas BEM, 7-1 y Sass. Aplícalos aquí:
+- /sass/base/
+- /sass/components/
+- /sass/layout/
+- /sass/pages/
+Esto te permite escalar el portafolio con facilidad.
+✅ Animaciones sutiles
+- Fade-in
+- Hover elegante
+- Transiciones suaves (0.2–0.3s)
+Evita animaciones exageradas.
+
+
+Branding personal
+✅ Logo o monograma
+Algo simple:
+JS o JSM en tipografía elegante.
+✅ Foto profesional
+No tiene que ser formal:
+- fondo neutro
+- buena luz
+- expresión amable
+- estilo moderno
+✅ Mensaje personal
+Una frase que te represente, algo como:
+“Creo experiencias digitales claras, humanas y accesibles.”
+
+
+Responsividad y detalles técnicos
+✅ Mobile First real
+Asegúrate de que:
+- el menú sea cómodo
+- los textos no queden demasiado grandes
+- las imágenes no se corten
+✅ Performance
+- Comprimir imágenes
+- Usar WebP
+- Lazy loading
+- Minificar CSS
+
+⭐ 7. Sección “Sobre mí” más humana
+Tu historia es tu ventaja competitiva.
+Combina hospitalidad + tecnología:
+“Durante años trabajé creando experiencias memorables para huéspedes en hoteles de alto nivel. Hoy aplico esa misma sensibilidad al diseño web: claridad, calidez y atención al detalle.”
+
+Eso te hace único.
+
+✅ Conclusión
+Tu portafolio ya tiene alma.
+Ahora toca darle estética, coherencia y narrativa para que transmita profesionalismo y modernidad.
+Si quieres, puedo ayudarte a rediseñar una sección completa (por ejemplo, el hero o la sección de proyectos) con texto, estructura y estilo visual.
+
+Sección “Sobre mí” más humana
+Tu historia es tu ventaja competitiva.
+Combina hospitalidad + tecnología:
+“Durante años trabajé creando experiencias memorables para huéspedes en hoteles de alto nivel. Hoy aplico esa misma sensibilidad al diseño web: claridad, calidez y atención al detalle.”
+
+Eso te hace único.
