@@ -11,8 +11,7 @@
     <!-- Tipografías -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
 
-    <!-- Icono -->
-
+    <!-- Iconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
@@ -31,7 +30,9 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
 
-            <button class="menu-btn"></button>
+            <button class="menu-btn" aria-label="Abrir menú">
+                <i class="fa-solid fa-bars"></i>
+            </button>
         </nav>
     </header>
 
@@ -41,9 +42,9 @@
 
         <h2>Hola, soy <span>Jorge Simon Morales</span></h2>
 
-        <h2 class="rol-animado">
+        <h3 class="rol-animado">
             <span id="texto-rol">Desarrollador Front-End Trainee</span>
-        </h2>
+        </h3>
 
         <a href="#proyectos" class="btn">Ver mis proyectos</a>
     </section>
@@ -57,7 +58,7 @@
             accesibles y centradas en las personas.
         </p>
     </section>
-<br>
+
     <!-- HABILIDADES -->
     <section id="habilidades" class="skills">
         <h2>Habilidades</h2>
@@ -69,7 +70,7 @@
             <li>Git & GitHub</li>
         </ul>
     </section>
-<br>
+
     <!-- PROYECTOS -->
     <section id="proyectos" class="projects">
         <h2>Proyectos</h2>
@@ -94,48 +95,45 @@
     </section>
 
     <!-- CONTACTO -->
-        <section id="contacto" class="contact">
+    <section id="contacto" class="contact">
         <h2>Contacto</h2>
 
         <form>
-            <label>
-                <input type="text" placeholder="Tu nombre" required>
-            </label>
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
 
-            <label>
-                <input type="email" placeholder="Tu correo" required>
-            </label>
+            <label for="correo">Correo</label>
+            <input id="correo" name="correo" type="email" placeholder="Tu correo" required>
 
-            <label>
-                <textarea placeholder="Tu mensaje"></textarea>
-            </label>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Tu mensaje"></textarea>
 
             <button type="submit">Enviar</button>
         </form>
     </section>
 
     <!-- FOOTER -->
-<footer>
-    <p>© 2025 Jorge Roberto | Portafolio Front-End</p>
+    <footer>
+        <p>© 2025 Jorge Roberto | Portafolio Front-End</p>
 
-    <div class="social">
-        <a href="https://www.linkedin.com/in/jorgesimonmorales" 
-           target="_blank" 
-           rel="noopener noreferrer">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/jorgesimonmorales"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
 
-        <a href="https://github.com/JorgeSimonMorales" 
-           target="_blank" 
-           rel="noopener noreferrer">
-            <i class="fa-brands fa-github"></i>
-        </a>
+            <a href="https://github.com/JorgeSimonMorales"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
 
-        <a href="mailto:jorge.simon.morales@gmail.com">
-            <i class="fa-solid fa-envelope"></i>
-        </a>
-    </div>
-</footer>
-
+            <a href="mailto:jorge.simon.morales@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
